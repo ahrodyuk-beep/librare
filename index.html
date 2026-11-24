@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LIBRAR</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <main class="library-screen" id="home">
+      <header class="topbar">
+        <div class="topbar__side topbar__side--left" aria-label="Home and search">
+          <span class="topbar__icon">
+            <img src="img/Home.png" alt="" width="28" height="28">
+          </span>
+          <span class="topbar__icon">
+            <img src="img/Search.png" alt="" width="22" height="22">
+          </span>
+        </div>
+
+        <div class="brand" aria-label="LIBRAR">
+          <img src="img/Logo.png" alt="" width="81" height="82">
+          <span>LIBRAR</span>
+        </div>
+
+        <div class="topbar__side topbar__side--right" aria-label="Favorites and personal cabinet">
+          <span class="topbar__icon">
+            <img src="img/Favorites.png" alt="" width="29" height="27">
+          </span>
+          <span class="topbar__icon topbar__icon--profile">
+            <img src="img/me.png" alt="" width="37" height="37">
+          </span>
+        </div>
+      </header>
+
+      <section class="folders" aria-label="Library sections">
+        <div class="folders__banner" aria-hidden="true"></div>
+
+        <nav class="folder-tabs" aria-label="Library sections">
+          <img class="folder-insert folder-insert--branches-catalog" src="img/paper1.png" alt="" aria-hidden="true">
+          <img class="folder-insert folder-insert--catalog-events" src="img/paper.png" alt="" aria-hidden="true">
+          <img class="folder-insert folder-insert--events-main" src="img/paper1.png" alt="" aria-hidden="true">
+
+          <article class="folder-tab folder-tab--catalog">
+            <span class="folder-tab__label">
+              <svg viewBox="0 0 240 48" aria-hidden="true" preserveAspectRatio="none">
+                <path d="M 0,48 Q 14,48 18,34 L 24,10 Q 26,0 36,0 L 204,0 Q 214,0 216,10 L 222,34 Q 226,48 240,48 Z"/>
+              </svg>
+              <span class="folder-tab__text">Каталог</span>
+            </span>
+          </article>
+          <article class="folder-tab folder-tab--main">
+            <span class="folder-tab__label">
+              <svg viewBox="0 0 240 48" aria-hidden="true" preserveAspectRatio="none">
+                <path d="M 0,48 Q 14,48 18,34 L 24,10 Q 26,0 36,0 L 204,0 Q 214,0 216,10 L 222,34 Q 226,48 240,48 Z"/>
+              </svg>
+              <span class="folder-tab__text">Головна</span>
+            </span>
+          </article>
+          <article class="folder-tab folder-tab--events">
+            <span class="folder-tab__label">
+              <svg viewBox="0 0 240 48" aria-hidden="true" preserveAspectRatio="none">
+                <path d="M 0,48 Q 14,48 18,34 L 24,10 Q 26,0 36,0 L 204,0 Q 214,0 216,10 L 222,34 Q 226,48 240,48 Z"/>
+              </svg>
+              <span class="folder-tab__text">Події</span>
+            </span>
+          </article>
+          <article class="folder-tab folder-tab--branches">
+            <span class="folder-tab__label">
+              <svg viewBox="0 0 240 48" aria-hidden="true" preserveAspectRatio="none">
+                <path d="M 0,48 Q 14,48 18,34 L 24,10 Q 26,0 36,0 L 204,0 Q 214,0 216,10 L 222,34 Q 226,48 240,48 Z"/>
+              </svg>
+              <span class="folder-tab__text">Філії та графік</span>
+            </span>
+          </article>
+        </nav>
+      </section>
+
+      <section class="content" aria-label="Main content"></section>
+    </main>
+  </body>
+</html>
